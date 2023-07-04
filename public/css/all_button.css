@@ -1,0 +1,229 @@
+  
+.all_button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #004A7F;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 10px 30px;
+    width: 120px;
+    margin: 5px 5px;
+  }
+  
+  /*
+  .all_buttonY {
+    background-color: #004A7F;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: glowingY 1500ms infinite;
+    -moz-animation: glowingY 1500ms infinite;
+    -o-animation: glowingY 1500ms infinite;
+    animation: glowingY 1500ms infinite;
+  }
+  */
+
+  .all_buttonY {
+    /* background-color: white;
+    color:#000000;
+    border: 2px solid rgb(209, 231, 13);
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: none;
+    width: 120px;
+    margin: 5px 5px;
+    -webkit-animation: glowingY 1500ms infinite;
+    -moz-animation: glowingY 1500ms infinite;
+    -o-animation: glowingY 1500ms infinite;
+    animation: glowingY 1500ms infinite; */
+
+    background-color: #F89406;
+    color:#FFFFFF;
+    border: 2px solid #F89406;
+    border-radius: 12px;
+    font-size: 40px;
+    padding: 10px 30px;
+    width: 180px;
+    margin: 5px 5px;
+  }
+
+
+  .all_buttonR {
+    /* background-color: white;
+    color:#FFFFFF;
+    border: 2px solid rgb(231, 13, 13);
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: none;
+    width: 120px;
+    margin: 5px 5px;
+    -webkit-animation: glowingR 1500ms infinite;
+    -moz-animation: glowingR 1500ms infinite;
+    -o-animation: glowingR 1500ms infinite;
+    animation: glowingR 1500ms infinite; */
+
+    background-color:  rgb(231, 13, 13);;
+    color:#FFFFFF;
+    border: 2px solid rgb(231, 13, 13);
+    border-radius: 12px;
+    font-size: 40px;
+    padding: 10px 30px;
+    width: 180px;
+    margin: 5px 5px;
+  }
+  
+  .all_buttonG {
+    /* background-color: white;
+    color:#FFFFFF;
+    border: 2px solid rgb(13, 231, 78);
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: none;
+    width: 120px;
+    margin: 5px 5px;
+    -webkit-animation: glowingG 1500ms infinite;
+    -moz-animation: glowingG 1500ms infinite;
+    -o-animation: glowingG 1500ms infinite;
+    animation: glowingG 1500ms infinite; */
+
+    background-color: rgb(13, 231, 78);;
+    color:#FFFFFF;
+    border: 2px solid rgb(13, 231, 78);
+    border-radius: 12px;
+    font-size: 40px;
+    padding: 10px 30px;
+    width: 180px;
+    margin: 5px 5px;
+
+  }
+  
+  @-webkit-keyframes glowingR {
+    0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  }
+
+  
+  @-moz-keyframes glowingR {
+    0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  }
+
+  
+  @-o-keyframes glowingR {
+    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  }
+
+  @-o-keyframes glowingR {
+    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  }
+
+  
+  @keyframes glowingR {
+    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  }
+  
+  @-webkit-keyframes glowingG {
+    0% { background-color: rgb(9, 131, 56); -webkit-box-shadow: 0 0 3px rgb(9, 131, 56); }
+    50% { background-color: rgb(9, 209, 9); -webkit-box-shadow: 0 0 40px rgb(9, 209, 9); }
+    100% { background-color: rgb(118, 153, 62); -webkit-box-shadow: 0 0 3px rgb(118, 153, 62); }
+  }
+  
+  
+  @-moz-keyframes glowingG {
+    0% { background-color: rgb(9, 131, 56); -moz-box-shadow: 0 0 3px  rgb(9, 131, 56); }
+    50% { background-color: rgb(9, 209, 9); -moz-box-shadow: 0 0 40px rgb(9, 209, 9); }
+    100% { background-color: rgb(118, 153, 62); -moz-box-shadow: 0 0 3px rgb(118, 153, 62); }
+  }
+  
+  
+  
+  @-o-keyframes glowingG {
+    0% { background-color: rgb(9, 131, 56); box-shadow: 0 0 3px rgb(9, 131, 56); }
+    50% { background-color: rgb(9, 209, 9); box-shadow: 0 0 40pxrgb(9, 209, 9); }
+    100% { background-color: rgb(9, 131, 56); box-shadow: 0 0 3px  rgb(9, 131, 56); }
+  }
+  
+  
+  @keyframes glowingG {
+    0% { background-color:  rgb(9, 131, 56); box-shadow: 0 0 3px  rgb(9, 131, 56); }
+    50% { background-color: rgb(9, 209, 9); box-shadow: 0 0 40px rgb(9, 209, 9); }
+    100% { background-color: rgb(9, 131, 56); box-shadow: 0 0 3px rgb(9, 131, 56); }
+  }
+
+
+  @-webkit-keyframes glowingY {
+    0% { background-color: rgb(232, 245, 51); -webkit-box-shadow: 0 0 3px rgb(232, 245, 51); }
+    50% { background-color: rgb(236, 238, 122); -webkit-box-shadow: 0 0 40px rgb(236, 238, 122); }
+    100% { background-color: rgb(232, 245, 51); -webkit-box-shadow: 0 0 3px rgb(232, 245, 51); }
+  }
+  
+  
+  @-moz-keyframes glowingY {
+    0% { background-color: rgb(232, 245, 51); -moz-box-shadow: 0 0 3px  rgb(9, 131, 56); }
+    50% { background-color: rgb(236, 238, 122); -moz-box-shadow: 0 0 40px rgb(236, 238, 122);}
+    100% { background-color: rgb(232, 245, 51); -moz-box-shadow: 0 0 3px rgb(232, 245, 51); }
+  }
+  
+  
+  
+  @-o-keyframes glowingY {
+    0% { background-color: rgb(232, 245, 51); box-shadow: 0 0 3px rgb(9, 131, 56); }
+    50% { background-color: rgb(236, 238, 122); box-shadow: 0 0 40px rgb(236, 238, 122); }
+    100% { background-color: rgb(232, 245, 51); box-shadow: 0 0 3px  rgb(232, 245, 51); }
+  }
+  
+  
+  @keyframes glowingY {
+    0% { background-color:  rgb(232, 245, 51); box-shadow: 0 0 3px  rgb(232, 245, 51); }
+    50% { background-color: rgb(236, 238, 122); box-shadow: 0 0 40px rgb(236, 238, 122); }
+    100% { background-color: rgb(232, 245, 51); box-shadow: 0 0 3px rgb(232, 245, 51); }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
